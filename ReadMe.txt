@@ -17,20 +17,20 @@ This repository contains a **Hybrid AI Framework** for intracranial pathology se
 ## Results
 The model achieved an **mAP@50 of 0.588** with 100% accuracy in identifying healthy (No-Tumor) cases.
 
-## 🎯 Detection & Localization Results
+## Detection & Localization Results
 | Pituitary | Meningioma | Glioma |
 | :---: | :---: | :---: |
-| ![Pituitary](results/Result_PITUITARY-TRAIN_438_jpg.rf.180e90f5701de1061c33e0480865da41.png) | ![Meningioma](results/Result_MENINGIOMA-VALID_150_jpg.rf.040f2998a4af373dff26acbd00db2230.png) | ![Glioma](results/Result_GLIOMA-TRAIN_124_jpg.rf.a1cbc288a62c0d88984dd44466f173a4.png) |
+| ![Pituitary](./results/Result_PITUITARY-TRAIN_438_jpg.rf.180e90f5701de1061c33e0480865da41.png) | ![Meningioma](./results/Result_MENINGIOMA-VALID_150_jpg.rf.040f2998a4af373dff26acbd00db2230.png) | ![Glioma](./results/Result_GLIOMA-TRAIN_124_jpg.rf.a1cbc288a62c0d88984dd44466f173a4.png) |
 
-##  Performance Metrics
+## Performance Metrics
 | Confusion Matrix | F1-Confidence Curve |
 | :---: | :---: |
-| ![Confusion Matrix](results/confusion_matrix_normalized.png) | ![F1 Curve](results/BoxF1_curve.png) |
+| ![Confusion Matrix](./results/confusion_matrix_normalized.png) | ![F1 Curve](./results/BoxF1_curve.png) |
 
-
-## 📂 Project Structure
+## Project Structure
 - `/script`: Contains `train.py`, `test.py`, and the hybrid extraction logic.
 - `/models`: Contains the trained weights (`best.pt`).
 
 - `/results`: Performance curves and confusion matrix.
+
 
